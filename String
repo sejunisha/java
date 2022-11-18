@@ -1,0 +1,13 @@
+import java.util.*;
+class string
+{
+    public static void main(String[] args) 
+    {
+        String a;
+        char b;
+    Scanner obj=new Scanner(System.in);
+    a=obj.nextLine();
+    b=a.charAt(3);
+        System.out.println(b);
+    }
+}
