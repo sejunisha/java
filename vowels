@@ -1,0 +1,36 @@
+import java.util.*;
+ class vowels
+{
+  public static void main (String[]args)
+ 
+ {
+ 
+   String a;
+   String c = " ";
+   a = a+ "";
+  int l = a.length ();
+  int pos = 0;
+  Scanner myObj=new Scanner(System.in);
+  System.out.println("enter the sentences :");
+  a=myObj.nextLine();
+  l=a.length();
+  for (int i = 0; i < l; i++)
+ {
+  char b = a.charAt(i);
+  if (b == ' ')
+  {
+	 c = a.substring (pos, i);
+   pos =i+1;
+   char p =c.charAt (0);
+   if (p == 'a' || p == 'A' || p == 'e' || p == 'E' || p == 'i' || p=='I' || p=='o' || p=='O' || p=='u' || p=='U')
+	 {
+	   System.out.println(c);
+   }
+   }
+  }
+ }
+}
+
+
+  
+  
