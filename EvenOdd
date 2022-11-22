@@ -1,0 +1,19 @@
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        int a;
+        Scanner myObj=new Scanner(System.in);
+        System.out.println("Enter the values :");
+        a=myObj.nextInt();
+     if(a%2==0)
+    {
+        System.out.println("It is an even :");
+    }
+    else
+    {
+        System.out.println("It is odd :");
+    }
+    }
+}
