@@ -1,0 +1,17 @@
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        Scanner Obj=new Scanner(System.in);
+        int ar[]=new int[10];
+        int sum=0,i;
+        System.out.println("Enter the marks of 10 students:");
+        for(i=0; i<10; i++)
+        {
+            ar[i]=Obj.nextInt();
+            sum=sum+ar[i];
+        }
+        System.out.println("Sum of marks:" +sum);
+    }
+}
